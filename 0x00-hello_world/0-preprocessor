@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE=*.c | gcc $CFILE -E > c
+CFILE="*.c" | gcc -E $CFILE > c
