@@ -1,2 +1,0 @@
-#!/bin/bash
-CFILE="compile.c" | gcc -c $CFILE > out.o
