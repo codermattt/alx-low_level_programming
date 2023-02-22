@@ -1,1 +1,12 @@
-int _putchar(char) /* writes a specified character to stdout */
+#ifndef main_h
+#define main_h
+/**
+ * _putchar - writes a specified 1 character to stdout
+ */
+
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+#endif
